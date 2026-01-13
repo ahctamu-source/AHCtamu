@@ -78,6 +78,19 @@ a:hover{ text-decoration: underline; }
   font-weight: 800;
   letter-spacing: 0.02em;
 }
+.brand-logo{
+  height: 52px;
+  width: auto;
+}
+
+@media (max-width: 980px){
+  .brand-logo{
+    height: 42px;
+  }
+}
+
+
+
 .brand-title{ display:block; font-weight: 800; }
 .brand-sub{ display:block; font-size: 12px; color: var(--muted); margin-top:2px; }
 
