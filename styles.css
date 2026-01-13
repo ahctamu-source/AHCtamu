@@ -79,16 +79,18 @@ a:hover{ text-decoration: underline; }
   letter-spacing: 0.02em;
 }
 .brand-logo{
-  height: 52px;
+  height: 80px;
   width: auto;
 }
 
 @media (max-width: 980px){
   .brand-logo{
-    height: 42px;
+    height: 60px;
   }
 }
-
+.header-inner{
+  padding: 18px 0;
+}
 
 
 .brand-title{ display:block; font-weight: 800; }
